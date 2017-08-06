@@ -12,7 +12,7 @@ confirm("i love JS");
 prompt("do you want to learn js?");
 */
 
-var favoriteCar = prompt("what is your favorite car?");
+/*var favoriteCar = prompt("what is your favorite car?");
 if(favoriteCar==="santafe"){
     alert("santafe is great!");
 }
@@ -21,4 +21,17 @@ else if (favoriteCar=== "i30"){
 }
 else{
     alert("Good Choice");
+}
+*/
+
+alert("Zombie Apocalypse!!");
+var weapon = prompt("You search around franticaly for a weapon. What do you choose? A bow and arrow,an exe,or a rubber chicken?");
+var randomnumber = Math.round(Math.random());
+
+alert("You attack the zombie with your" + " " + weapon);
+
+if(randomnumber === 0){
+    alert("The zombie bites you. You lose!!!");
+}else if (randomnumber === 1){
+    alert("You kill the zombie with your" + " " + weapon + ".You win!!!!");
 }
